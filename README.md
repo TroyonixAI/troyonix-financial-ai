@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://your-logo-url.com/logo.png" alt="Troyonix Logo" width="200"/>
-</p>
-
 <h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
 
 <p align="center">
