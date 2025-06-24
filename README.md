@@ -19,22 +19,8 @@ The diagram below illustrates the flow of data from collection to training.
 
 ```mermaid
 graph TD;
-    A[Public Data Sources: SEC Filings, FRED Data] --> B[Data Collection (Legal & Rate-Limited)];
-    B --> C[Preprocessing: Text Cleaning, Domain Adaptation];
-    C --> D[Structured Training Data];
-    D --> E[FinBERT Fine-Tuning];
-    E --> F[Troyonix Financial Model];
-
-    subgraph "Open-Source Foundation"
-        B
-        C
-        D
-        E
-    end
-
-    subgraph "Proprietary Application Layer"
-        F --> G[AI Agents & UI];
-    end
+    A[Start] --> B[Process];
+    B --> C[End];
 ```
 
 ## 🛡️ The Troyonix Legal-First Approach
