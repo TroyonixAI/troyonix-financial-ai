@@ -1,9 +1,3 @@
-<h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
-
-<p align="center">
-  <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
-</p>
-
 <p align="center">
   <a href="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml">
     <img src="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
@@ -12,7 +6,6 @@
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
-  <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
   <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
 </p>
 
