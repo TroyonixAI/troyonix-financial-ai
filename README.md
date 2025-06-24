@@ -1,9 +1,7 @@
 <h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
 
 <p align="center">
-  <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b><br>
-  <a href="https://your-docs-link.com">Documentation</a> |
-  <a href="https://your-homepage-link.com">Homepage</a>
+  <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
 </p>
 
 <p align="center">
