@@ -1,0 +1,42 @@
+{
+    "api_keys": {
+        "huggingface": "your_huggingface_api_key_here"
+    },
+    "user_agents": {
+        "sec": "Your Name (your.email@example.com)"
+    },
+    "rate_limits": {
+        "sec": 10
+    },
+    "collection_limits": {
+        "max_filings": 100
+    },
+    "model": {
+        "base_model": "ProsusAI/finbert",
+        "output_dir": "data/finetuned_models/financial_llm",
+        "training_args": {
+            "num_train_epochs": 3,
+            "per_device_train_batch_size": 8,
+            "gradient_accumulation_steps": 4,
+            "learning_rate": 2e-5,
+            "weight_decay": 0.01,
+            "warmup_steps": 100,
+            "logging_steps": 50,
+            "save_steps": 500,
+            "eval_steps": 500,
+            "save_total_limit": 2,
+            "fp16": false,
+            "use_mps_device": true,
+            "dataloader_num_workers": 0,
+            "dataloader_pin_memory": false
+        }
+    },
+    "servers": {
+        "hf-mcp-server": {
+            "headers": {}
+        }
+    }
+}
+
+
+       

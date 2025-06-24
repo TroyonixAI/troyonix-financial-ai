@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+fintech-venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/raw/
+data/processed/
+data/finetuned_models/
+*.log
+.env
+*.csv
+*.json
+!config/*.json
+!config/config.example.json
+
+# Sensitive files
+config/config.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.p8
+*.env
+.env.*
+!.env.example
+config.local.json
+*_local.json
+*_local.yaml
+*_local.yml
+*_local.ini
+*_local.cfg
+*_local.conf
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb 
