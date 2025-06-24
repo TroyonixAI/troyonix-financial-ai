@@ -19,8 +19,11 @@ The diagram below illustrates the flow of data from collection to training.
 
 ```mermaid
 graph TD;
-    A[Start] --> B[Process];
-    B --> C[End];
+    A[Data Sources] --> B[Data Collection];
+    B --> C[Preprocessing];
+    C --> D[Training Data];
+    D --> E[Model Training];
+    E --> F[Deployment];
 ```
 
 ## 🛡️ The Troyonix Legal-First Approach
