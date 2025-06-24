@@ -18,12 +18,12 @@ This repository contains the foundational layers of the Troyonix AI platform. We
 The diagram below illustrates the flow of data from collection to training.
 
 ```mermaid
-graph TD;
-    A[Data Sources] --> B[Data Collection];
-    B --> C[Preprocessing];
-    C --> D[Training Data];
-    D --> E[Model Training];
-    E --> F[Deployment];
+graph LR;
+    A[Sources] --> B[Collection];
+    B --> C[Prep];
+    C --> D[Train Data];
+    D --> E[Model];
+    E --> F[Deploy];
 ```
 
 ## 🛡️ The Troyonix Legal-First Approach
