@@ -3,7 +3,7 @@
 
 
 <h2 align="center">
-  <h2>Enterprise-grade, open-source AI for wealth management and financial analysis.</h2>
+Enterprise-grade, open-source AI for wealth management and financial analysis.
 </h2>
 
 
