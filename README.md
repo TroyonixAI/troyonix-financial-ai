@@ -1,5 +1,6 @@
 <h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
 
+----------------------------------------------------------------------------------------------------------
 <p align="center">
   <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
 </p>
