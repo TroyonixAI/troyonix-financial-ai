@@ -135,7 +135,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ---
 
-**Built with ❤️ by a founder who believes in transparency, legal compliance, and the power of community.**
+**Built by a founder who believes in transparency, legal compliance, and the power of community.**
 
 # Open Source Release Structure
 
