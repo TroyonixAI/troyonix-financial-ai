@@ -128,3 +128,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Built by a founder who believes in transparency, legal compliance, and the power of community.**
+
+<!-- trigger CI -->
