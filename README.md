@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml">
-    <img src="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
+  <a href="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml">
+    <img src="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
