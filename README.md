@@ -1,4 +1,10 @@
-<h1 align="center">Troyonix: AI Models </h1> <h2 align="center"> AI for wealth management and financial analysis. </h2> <!-- Trigger new CI run -->---
+Absolutely! Here is your improved, launch-ready README file. You can copy and paste this directly to replace your existing README.md in your repository.
+
+---
+
+```markdown
+<h1 align="center">Troyonix: AI Models</h1>
+<h2 align="center">AI for Wealth Management and Financial Analysis</h2>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/TroyonixAI/troyonix-financial-ai" alt="License">
@@ -61,23 +67,24 @@ Only these sources are used:
 
 ## 🚀 Quick Start
 
-Get the pipeline running fast!
+**Prerequisites**: Python 3.8+ and [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/TroyonixAI/troyonix-financial-ai.git
 cd troyonix-financial-ai
 
-# 2. Set up your environment (Python 3.8+)
+# 2. Set up your environment
 python -m venv venv
 # On Linux/macOS:
 source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 
+pip install --upgrade pip
 pip install -r requirements.txt
 
-# 3. Configure your API keys (optional, for FRED data)
+# 3. [Optional] Configure your API keys for FRED
 cp config/config.example.json config/config.json
 # Add your FRED API key to config.json
 
@@ -108,8 +115,8 @@ python src/analysis/run_inference_examples.py
 | Recall    | _TBD_   |
 | F1-Score  | _TBD_   |
 
-*Run evaluation yourself via `python src/analysis/evaluate_model.py`.*  
-*We’re working toward benchmarks on Financial PhraseBank and other datasets.*
+*Run evaluation yourself via `python src/analysis/evaluate_model.py`.  
+We’re working toward benchmarks on Financial PhraseBank and other datasets.*
 
 ---
 
@@ -122,7 +129,7 @@ python src/analysis/run_inference_examples.py
 
 ---
 
-## Future Work & Roadmap
+## 🚧 Future Work & Roadmap
 
 **Short Term**
 - Expand labeled datasets (community input welcome!)
@@ -145,7 +152,7 @@ python src/analysis/run_inference_examples.py
 
 ---
 
-## Community & Contributing
+## 🤝 Community & Contributing
 
 We welcome contributions!  
 **How to contribute:**
@@ -156,7 +163,7 @@ We welcome contributions!
 
 **Join the community:**  
 - [GitHub Discussions](https://github.com/TroyonixAI/troyonix-financial-ai/discussions)
-- (Add Slack/Discord link if available)
+- _(Add Slack/Discord link if available)_
 
 ---
 
@@ -167,5 +174,9 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Built by a founder who believes in transparency, legal compliance, and the power of community.**
+```
 
 ---
+
+Copy everything above (including the opening and closing triple backticks) and paste it into your README.md file.  
+If you’d like the launch checklist, CONTRIBUTING.md template, or help with any other file, just ask!
