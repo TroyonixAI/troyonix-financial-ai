@@ -157,4 +157,4 @@ To prepare this project for open source release, use the following structure:
 
 This structure keeps your open-source release clean, safe, and easy for others to use.
 
-<!-- Trigger CI --> 
+<!-- Trigger new CI run --> 
