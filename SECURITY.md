@@ -16,4 +16,4 @@ We support the latest version of Troyonix. Please update to the latest version b
 ## Responsible Disclosure
 We appreciate responsible disclosure and will credit you in our release notes if you wish.
 
-Thank you for making Troyonix safer for everyone! 
+Thank you for making Troyonix safer for everyone!
