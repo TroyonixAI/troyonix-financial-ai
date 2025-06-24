@@ -155,4 +155,6 @@ To prepare this project for open source release, use the following structure:
 - Any files in `data/` (raw, processed, or model data)
 - `venv/` or any virtual environment folders
 
-This structure keeps your open-source release clean, safe, and easy for others to use. 
+This structure keeps your open-source release clean, safe, and easy for others to use.
+
+<!-- Trigger CI --> 
