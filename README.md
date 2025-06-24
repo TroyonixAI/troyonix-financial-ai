@@ -1,10 +1,14 @@
-from docx import Document
-
-# Create a new Word document
-doc = Document()
-
-# Title
-doc.add_heading('Troyonix: AI Models - README.md', level=1)
+p align="center">
+  <a href="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml">
+    <img src="https://github.com/TroyonixAI/troyonix-legal-financial-ai/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
+</p>
+>>>>>>> 66ff961 (Remove decorative open source badge and heart; keep only relevant badges for public release)
 
 # Markdown content (converted slightly for readability in Word)
 readme_content = """
