@@ -1,7 +1,9 @@
 # Troyonix: Enterprise-Grade Legal-Compliant Financial AI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Build Status](https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-tests.yml/badge.svg)](https://github.com/TroyonixAI/troyonix-open-source/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/TroyonixAI/troyonix-open-source)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 
 ## 🚀 What We're Open-Sourcing
@@ -129,7 +131,7 @@ We welcome contributions of all kinds, from code and documentation to bug report
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software in accordance with the terms of the license.
 
 ---
 
