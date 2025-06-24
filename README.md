@@ -1,169 +1,121 @@
-<h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
+from docx import Document
 
-<p align="center">
-  <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
-</p>
+# Create a new Word document
+doc = Document()
 
-<p align="center">
-  <a href="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml">
-    <img src="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-  </a>
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
-</p>
+# Title
+doc.add_heading('Troyonix: AI Models - README.md', level=1)
 
-## 🚀 What We're Open-Sourcing
+# Markdown content (converted slightly for readability in Word)
+readme_content = """
+Troyonix: AI Models
+AI for Wealth Management and Financial Analysis
 
-This repository contains the foundational layers of the Troyonix AI platform. We are open-sourcing our core data processing and model training pipeline to promote transparency and build a community around legally-sound financial AI.
+Badges:
+- License: MIT
+- Python: 3.8+
+- Issues: GitHub Issues
+- Contributors: GitHub Contributors
 
-### Key Features:
--   **Legal-Compliant Data Pipeline**: A production-ready data collection system that uses only public-domain sources like SEC EDGAR and Federal Reserve (FRED) data, eliminating legal risks associated with other financial data sources.
--   **Wealth Management Specialization**: Advanced preprocessing tailored for wealth management use cases and a fine-tuned FinBERT model that understands the nuances of financial sentiment.
--   **Full Transparency Framework**: Complete documentation on data lineage, processing steps, and legal considerations, ensuring every step is auditable and trustworthy.
+📖 Table of Contents
+- What We're Open-Sourcing
+- Architecture
+- Legal-First Approach
+- Quick Start
+- Performance
+- Why Contribute?
+- Future Work & Roadmap
+- Use Cases
+- Community & Contributing
+- License
 
-## 🏗️ Architecture
+🚀 What We're Open-Sourcing
+This repository contains the foundational layers of the Troyonix AI platform—core data processing, compliance-first pipelines, and model training tools.
 
-The diagram below illustrates the flow of data from collection to training.
+Key Features:
+- Legal-Compliant Data Pipeline: Collects only public-domain sources (SEC EDGAR, FRED).
+- Wealth Management Specialization: Advanced preprocessing and a fine-tuned FinBERT model for financial sentiment.
+- Full Transparency: Complete documentation on data lineage, processing, and legal considerations.
 
-```mermaid
-graph LR;
-    A[Sources] --> B[Collection];
-    B --> C[Prep];
-    C --> D[Train Data];
-    D --> E[Model];
-    E --> F[Deploy];
-```
+🏗️ Architecture (Mermaid Diagram)
+Sources → Collection → Prep → Train Data → Model → Deploy
 
-## 🛡️ The Troyonix Legal-First Approach
+🛡️ The Troyonix Legal-First Approach
+Only these sources are used:
+- SEC EDGAR Filings: Public domain corporate financial data.
+- Federal Reserve Economic Data (FRED): Official US economic indicators.
+- Policy Uncertainty Indices: Academic, open-access sentiment measures.
+Compliance is enforced in code—see src/data_collection for implementation details.
 
-In an industry where data privacy and compliance are paramount, Troyonix is built on a "legal-first" principle. Our pipeline uses only:
--   ✅ **SEC EDGAR Filings**: Public domain data for corporate financial reporting.
--   ✅ **Federal Reserve Economic Data (FRED)**: Authoritative U.S. government economic indicators.
--   ✅ **Policy Uncertainty Indices**: Respected academic sources for market sentiment.
+🚀 Quick Start
+Prerequisites: Python 3.8+ and pip.
 
-This approach ensures our models are built on a foundation of data that is ethical, transparent, and free from commercial licensing restrictions.
+1. Clone the repository:
+    git clone https://github.com/TroyonixAI/troyonix-financial-ai.git
+    cd troyonix-financial-ai
 
-## 🚀 Quick Start
+2. Set up your environment:
+    python -m venv venv
+    source venv/bin/activate (or venv\\Scripts\\activate on Windows)
 
-Get the entire pipeline running in just a few commands.
+3. Install dependencies:
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/troyonix-legal-financial-ai.git
-cd troyonix-legal-financial-ai
+4. (Optional) Configure your API keys for FRED:
+    cp config/config.example.json config/config.json
 
-# 2. Set up your environment (requires Python 3.8+)
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+5. Run the data pipeline:
+    python src/data_collection/collect_all_data.py
+    python src/preprocessing/prepare_training_data.py
 
-# 3. Configure your API keys (optional, for FRED data)
-# Copy config.example.json to config.json and add your FRED API key.
+6. Train the model:
+    python src/training/train_finbert.py
 
-# 4. Run the data collection and processing pipeline
-python src/data_collection/collect_all_data.py
-python src/preprocessing/prepare_training_data.py
+7. Evaluate & run inference:
+    python src/analysis/evaluate_model.py
+    python src/analysis/run_inference_examples.py
 
-# 5. Run the model training
-python src/training/train_finbert.py
+Performance (TBD)
+- Accuracy: TBD
+- Precision: TBD
+- Recall: TBD
+- F1-Score: TBD
 
-# 6. Evaluate model performance
-python src/analysis/evaluate_model.py
+🌟 Why Contribute to Troyonix?
+- Shape the Future: Build a transparent, compliant AI for finance.
+- Grow Your Skills: Collaborate with experts in AI, finance, and compliance.
+- Make an Impact: Your code will be used by professionals worldwide.
+- Get Recognized: Top contributors featured in docs and blogs.
 
-# 7. Run inference examples
-python src/analysis/run_inference_examples.py
-```
+🚧 Future Work & Roadmap
+Short Term:
+- Expand labeled datasets (community input welcome!)
+- Add more evaluation metrics and visualizations
 
-## 📊 Performance
+Long Term:
+- Integrate global filings and alternative data sources
+- Advance model capabilities (risk, compliance, portfolio analytics)
+- Enhance explainability and audit trails
 
-To ensure transparency and provide a clear measure of the model's capabilities, we evaluate it against a labeled dataset of financial texts.
+📊 Use Cases
+- Wealth Management Firms: Build legal/compliant portfolio and risk tools.
+- Financial Analysts: Automate SEC filings and economic report analysis.
+- Fintech Startups: Use as a foundation for compliant financial AI products.
 
-**Evaluation Dataset:** A custom-labeled dataset of sentences from SEC filings.
-*NOTE: For a truly robust benchmark, we plan to evaluate against standardized datasets like the Financial PhraseBank in the future.*
+🤝 Community & Contributing
+How to contribute:
+1. Fork this repo and create a new branch.
+2. Make your changes and add tests where appropriate.
+3. Submit a pull request with a clear description of your changes.
+4. For ideas, see our open issues or CONTRIBUTING.md.
 
-| Metric    | Score   |
-| :-------- | :------ |
-| Accuracy  | TBD     |
-| Precision | TBD     |
-| Recall    | TBD     |
-| F1-Score  | TBD     |
+Join the community:
+- GitHub Discussions
+- (Add Slack/Discord link if available)
 
-*The "TBD" scores will be updated after running the full evaluation on a comprehensive test set. You can run the evaluation yourself using the `evaluate_model.py` script.*
+📄 License
+This project is licensed under the MIT License.
 
-## 🌟 Why Contribute to Troyonix?
-
-- **Shape the Future of Finance:**  Help build the first truly transparent, legally-compliant AI platform for wealth management—setting new industry standards.
-- **Learn & Grow:**  Collaborate with experts in AI, finance, and compliance. Gain experience with real-world NLP, data engineering, and responsible AI.
-- **Make an Impact:**  Your contributions will be used by financial professionals, researchers, and innovators worldwide.
-- **Get Recognized:**  Top contributors will be featured in our documentation, blog, and (eventually) have early access to commercial features and opportunities.
-- **Join a Mission-Driven Community:**  We believe in open, ethical, and impactful technology. If you do too, you'll fit right in.
-
-Ready to get started? Check out our CONTRIBUTING.md and join the discussion!
-
-## Future Work
-
-**Transparency is our priority. Here's what Troyonix can and can't do today:**
-
-- **Current Limitations:**
-  - The evaluation dataset is small and focused on U.S. SEC filings; broader coverage is coming.
-  - The model is optimized for sentiment and basic event detection; more advanced tasks are in development.
-  - Only public-domain data is used—no proprietary or alternative data sources (yet).
-  - Not intended as financial advice or a replacement for human expertise.
-- **Future Work:**
-  - Expand labeled datasets (with community and partner contributions)
-  - Add support for global filings, news, and alternative data
-  - Develop more advanced models for risk, compliance, and portfolio analytics
-  - Enhance explainability, audit trails, and human-in-the-loop features
-
-We're committed to continuous improvement and welcome your feedback and contributions!
-
-## 📊 Use Cases
-
-This foundational pipeline can be used by:
-
--   **Wealth Management Firms** to build tools for client communication, portfolio analysis, and risk assessment with full legal and compliance backing.
--   **Financial Analysts** to automate the analysis of SEC filings and economic reports for market research and compliance.
--   **Fintech Startups** as a legally-sound starting point for building their own financial AI products.
-
-## 🎯 My Story
-
-I'm a 19-year-old founder building the AI tools I believe the wealth management industry needs. Recognizing that many AI solutions rely on questionable data, I committed to building Troyonix on a foundation of 100% legal and transparent sources. I'm leveraging AI to help me write the code, allowing me to focus on the architectural vision, product strategy, and legal compliance.
-
-I'm open-sourcing this foundation because I believe in transparency and community collaboration. Let's build the future of financial AI, the right way.
-
-## 🤝 Contributing
-
-We welcome contributions of all kinds, from code and documentation to bug reports and feature ideas. Please see our [Contributing Guidelines](CONTRIBUTING.md) to get started.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software in accordance with the terms of the license.
-
----
-
-**Built by a founder who believes in transparency, legal compliance, and the power of community.**
-
-# Open Source Release Structure
-
-To prepare this project for open source release, use the following structure:
-
-**Include in your GitHub repo:**
-- `src/` (all code: data collection, preprocessing, training, analysis, utils, and tests)
-- `config/config.example.json` (example config only)
-- `config/model_config.yaml` (model config)
-- `docs/` (all documentation)
-- `README.md`, `CONTRIBUTING.md`, `LICENSE`
-- `requirements.txt`
-- `.gitignore`
-
-**Do NOT include (add to .gitignore if not already):**
-- `config/config.json` (real secrets/configs)
-- Any files in `data/` (raw, processed, or model data)
-- `venv/` or any virtual environment folders
-
-This structure keeps your open-source release clean, safe, and easy for others to use.
-
-<!-- Trigger new CI run --> 
+Built by a founder who believes in transparency, legal compliance, and the power of community.
+"""
