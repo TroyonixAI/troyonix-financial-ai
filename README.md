@@ -19,8 +19,8 @@ The diagram below illustrates the flow of data from collection to training.
 
 ```mermaid
 graph TD;
-    A[Public Data Sources \\n- SEC Filings \\n- FRED Data] --> B[Data Collection \\n(Legal & Rate-Limited)];
-    B --> C[Preprocessing \\n- Text Cleaning \\n- Domain Adaptation];
+    A[Public Data Sources: SEC Filings, FRED Data] --> B[Data Collection (Legal & Rate-Limited)];
+    B --> C[Preprocessing: Text Cleaning, Domain Adaptation];
     C --> D[Structured Training Data];
     D --> E[FinBERT Fine-Tuning];
     E --> F[Troyonix Financial Model];
