@@ -4,16 +4,9 @@
   <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
 </p>
 
-<p align="center">
-  <a href="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml">
-    <img src="https://github.com/TroyonixAI/troyonix-open-source/actions/workflows/python-ci.yml/badge.svg" alt="Build Status">
-  </a>
-  <a href="LICENSE">
+<a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-  </a>
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions Welcome">
-</p>
+
 
 ## 🚀 What We're Open-Sourcing
 
