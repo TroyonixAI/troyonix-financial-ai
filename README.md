@@ -1,5 +1,3 @@
-Here’s a revised version of your README with clear improvements for clarity, engagement, and structure. I’ve included badges, a better quick start, a table of contents, enhanced contribution guidance, and more actionable sections. You can copy and adapt this as needed.
-
 ---
 
 <h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
@@ -173,5 +171,3 @@ This project is licensed under the [MIT License](LICENSE).
 **Built by a founder who believes in transparency, legal compliance, and the power of community.**
 
 ---
-
-Let me know if you want this in a more specific format, or if you’d like a pull request draft with these changes!
