@@ -6,7 +6,7 @@ Thank you for helping keep Troyonix and its users safe!
 
 If you discover a security vulnerability, please report it privately and responsibly:
 
-- **Email:** christian@troyonix.com
+- **Email:** hi@troyonix.com
 - **Do not** open a public issue for security problems.
 - We will respond as quickly as possible and work with you to resolve the issue.
 
