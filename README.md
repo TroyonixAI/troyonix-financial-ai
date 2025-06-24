@@ -1,6 +1,4 @@
----
-
-<h1 align="center">Troyonix: Legal-Compliant Financial AI</h1>
+<h1 align="center">Troyonix: Legal-Compliant Financial AI</h1> <h2 align="center"> Enterprise-grade, open-source AI for wealth management and financial analysis. </h2> <!-- Trigger new CI run -->---
 
 <p align="center">
   <img src="https://img.shields.io/github/license/TroyonixAI/troyonix-financial-ai" alt="License">
