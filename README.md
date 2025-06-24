@@ -4,9 +4,6 @@
   <b>Enterprise-grade, open-source AI for wealth management and financial analysis.</b>
 </p>
 
-<a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
-
 
 ## 🚀 What We're Open-Sourcing
 
