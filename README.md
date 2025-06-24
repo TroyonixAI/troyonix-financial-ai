@@ -63,3 +63,5 @@ MIT License. Free for personal, academic, and commercial use—just keep it open
 ---
 
 **Ready to build the future of financial AI? Star the repo, join the community, and let's make finance better for everyone!**
+
+<!-- trigger CI for public workflow test -->
