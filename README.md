@@ -94,7 +94,7 @@ To ensure transparency and provide a clear measure of the model's capabilities, 
 
 Ready to get started? Check out our CONTRIBUTING.md and join the discussion!
 
-## ⚠️ Limitations & Future Work
+## Future Work
 
 **Transparency is our priority. Here's what Troyonix can and can't do today:**
 
