@@ -67,7 +67,7 @@ MIT License. Free for personal, academic, and commercial use—just keep it open
 
 
 
-## 🚀 Troyonix
+## Troyonix
 AI systems for wealth management.  
 🔗 [Visit Site](https://troyonix.com)
 <!-- trigger CI for public workflow test -->
