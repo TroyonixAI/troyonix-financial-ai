@@ -2,12 +2,13 @@
 
 **Open-source AI for the future of finance.**
 
-Troyonix is an open-source platform for wealth management and financial analysis, built for transparency, innovation, and community-driven progress. We use only public-domain data (SEC EDGAR, FRED, and academic indices) so you can build, learn, and deploy with confidence.
+Troyonix is a fintech company for wealth management and financial analysis, built for transparency, innovation, and community-driven progress. We use only public-domain data (SEC EDGAR, FRED, and academic indices, etc.) so you can build, learn, and deploy with confidence.
 
 ## 🚀 What is Troyonix?
 Troyonix provides:
 - **A robust data pipeline** for collecting and processing financial data from public sources.
-- **Specialized preprocessing and training scripts** for financial NLP, including a fine-tuned FinBERT model.
+- **Custom preprocessing and training pipelines** for financial NLP, featuring a **fine-tuned FinBERT model** and **continually evolving** domain-specific language models tailored through ongoing research.
+
 - **Full transparency**—every step is documented and auditable.
 
 ## 🏗️ Architecture Overview
