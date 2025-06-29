@@ -1,7 +1,7 @@
 # Troyonix
 
 
-**Open-source AI for the future of finance.**
+**AI for the future of finance.**
 
 Troyonix is a fintech company for wealth management and financial analysis, built for transparency, innovation, and community-driven progress. We use only public-domain data (SEC EDGAR, FRED, and academic indices, etc.) so you can build, learn, and deploy with confidence.
 
