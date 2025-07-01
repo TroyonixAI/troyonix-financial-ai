@@ -32,7 +32,7 @@ pandas==2.3.0
 propcache==0.3.2
 psutil==7.0.0
 pyarrow==20.0.0
-PyPDF2==3.0.1
+PyPDF2==3.9.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyYAML==6.0.2
